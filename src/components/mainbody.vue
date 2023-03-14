@@ -1,0 +1,37 @@
+<template>
+    <title-section 
+      headerText="Welcome to my personal website!"
+      paragraphText="This website is still in it's infancy. However, for now you can click on all of the fancy links above. Maybe you want to see my Github, my YouTube channel, who knows? Just use that mouse and click those links. You can do it!"
+    />
+
+    <title-section
+      headerText="Github Account"
+      paragraphText="On my Github, you can check out my extensive personal projects (including this one!). I take great care to document each one so you can try them yourself."
+      imgPath="githublogo.png"
+      imgAlt="Github Logo"
+    />
+
+    <title-section
+      headerText="Youtube Channel"
+      paragraphText="On my YouTube Channel, I (ocassionally) post videos mainly about programming and other technical areas."
+      imgPath="ytlogo.webp"
+      imgAlt="Youtube Logo"
+    />
+
+    <title-section
+      headerText="My Twitter"
+      paragraphText="Although twitter sucks in general is a cesspool of stupid opinions and horrible takes, you can trust me to provide the correct and true opinions. Do not question my opinions. If they seem to be wrong that is a consequence of the human inability to understand or wrap one's head around the divine. My twitter is divinely based and that is that."
+      imgPath="twitterlogo.png"
+      imgAlt="Twitter Logo" 
+    />
+
+    <title-section
+      headerText="My Email"
+      paragraphText="Email me if you DARE!"
+    />
+  
+</template>
+
+<script setup>
+  import TitleSection from './titlesection.vue';
+</script>
